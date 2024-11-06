@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalparameter Analyse</title>
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Stylesheet-Verlinkung -->
+</head>
+
+<body>
+    <h1>Vitalparameter</h1>
+    <form id="prediction-form">
+        <input type="number" step="0.01" id="temp" placeholder="Temperatur (°C)" required />
+        <input type="number" step="0.01" id="pulse" placeholder="Puls (bpm)" required />
+        <input type="number" step="0.01" id="resp" placeholder="Respiration" required />
+        <input type="number" step="0.01" id="bpsys" placeholder="Blutdruck systolisch" required />
+        <input type="number" step="0.01" id="bpdias" placeholder="Blutdruck diastolisch" required />
+        <input type="number" step="0.01" id="popct" placeholder="POCT" required />
+        <button type="submit">Vorhersage anfragen</button>
+    </form>
+    <div id="result">Vorhersageergebnis - </div>
+
+    <!-- JavaScript-Einbindung -->
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
