@@ -15,3 +15,15 @@ or manually via:
 To run the application afterwards:
 
 `python app.js`
+
+
+
+## AI Model Information
+
+The Training Data was taken from Kaggle and can be accessed here:
+
+[Patient Health Scores for EHR data | Kaggle](https://www.kaggle.com/datasets/hansaniuma/patient-health-scores-for-ehr-data)
+
+
+
+The Phython Notebook that was used for Training the Model on Google Colab is included in the /model folder. So is the Training Data itself.
